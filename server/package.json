@@ -1,0 +1,28 @@
+{
+  "homepage": "http://anshika2610.github.io/react-app",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripnots": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.5",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "gh": "^2.8.6",  
+    "pages": "0.0.16"  
+  }
+ 
+  
+}
